@@ -15,12 +15,14 @@ body {
     font-weight: 400;
     background: #ffffff;
 }
-html {
-    scroll-behavior: smooth;
-  }
+
 a {
     color: var(--menu-color);
     transition: .3s;
+}
+
+*{
+scroll-behavior: smooth;
 }
 
 a:hover,
@@ -691,15 +693,15 @@ h6 {
     border: none;
     height: auto;
     cursor: pointer;
-    -webkit-filter: brightness(100%);
+    /* -webkit-filter: brightness(100%); */
     -webkit-transition: .4s all;
     -moz-transition: .4s all;
     transition: .4s all;
 }
 
-#process .youtube-player img:hover {
-    -webkit-filter: brightness(90%);
-}
+/* #process .youtube-player img:hover {
+    /* -webkit-filter: brightness(90%); */
+/* } */ 
 
 #process .youtube-player .play {
     height: 100px;
